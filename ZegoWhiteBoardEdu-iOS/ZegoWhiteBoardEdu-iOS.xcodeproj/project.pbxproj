@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3303C1F2229BCD7900124BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C1F1229BCD7900124BFB /* AppDelegate.m */; };
+		3303C1F8229BCD7900124BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3303C1F6229BCD7900124BFB /* Main.storyboard */; };
+		3303C1FA229BCD7B00124BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3303C1F9229BCD7B00124BFB /* Assets.xcassets */; };
+		3303C1FD229BCD7B00124BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3303C1FB229BCD7B00124BFB /* LaunchScreen.storyboard */; };
+		3303C200229BCD7B00124BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C1FF229BCD7B00124BFB /* main.m */; };
+		3303C208229BCF5100124BFB /* ZegoLiveRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3303C207229BCF5100124BFB /* ZegoLiveRoom.framework */; };
+		3303C20A229BCF5A00124BFB /* ZegoLiveRoom.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3303C207229BCF5100124BFB /* ZegoLiveRoom.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3303C22C229CD6B600124BFB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C214229CD6B600124BFB /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		3303C22D229CD6B600124BFB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C21D229CD6B600124BFB /* ViewController+MASAdditions.m */; };
+		3303C22E229CD6B600124BFB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C221229CD6B600124BFB /* MASCompositeConstraint.m */; };
+		3303C22F229CD6B600124BFB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C222229CD6B600124BFB /* MASConstraintMaker.m */; };
+		3303C230229CD6B600124BFB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C223229CD6B600124BFB /* MASLayoutConstraint.m */; };
+		3303C231229CD6B600124BFB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C224229CD6B600124BFB /* NSArray+MASAdditions.m */; };
+		3303C232229CD6B600124BFB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C225229CD6B600124BFB /* View+MASAdditions.m */; };
+		3303C233229CD6B600124BFB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C228229CD6B600124BFB /* MASConstraint.m */; };
+		3303C234229CD6B600124BFB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C22A229CD6B600124BFB /* MASViewConstraint.m */; };
+		3303C235229CD6B600124BFB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C22B229CD6B600124BFB /* MASViewAttribute.m */; };
+		3303C23A229CD6C800124BFB /* ZGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C237229CD6C800124BFB /* ZGHelper.m */; };
+		3303C23B229CD6C800124BFB /* ZGKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C238229CD6C800124BFB /* ZGKeyCenter.m */; };
+		3303C23F229CD6E200124BFB /* ZegoHudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C23D229CD6E100124BFB /* ZegoHudManager.m */; };
+		3303C243229CD6F500124BFB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C241229CD6F500124BFB /* MBProgressHUD.m */; };
+		3303C246229CD8D600124BFB /* ZegoRoomListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C245229CD8D600124BFB /* ZegoRoomListViewController.m */; };
+		3303C24A229CE25A00124BFB /* ZGApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C248229CE25A00124BFB /* ZGApiManager.m */; };
+		3303C24D229D0A4400124BFB /* ZegoWhiteBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C24C229D0A4400124BFB /* ZegoWhiteBoardViewController.m */; };
+		3303C250229D0E4600124BFB /* RoomCommandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C24F229D0E4600124BFB /* RoomCommandListController.m */; };
+		3303C25F229D16E900124BFB /* ZegoRoomInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C254229D16E900124BFB /* ZegoRoomInfo.m */; };
+		3303C260229D16E900124BFB /* ZegoUserLiveQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C255229D16E900124BFB /* ZegoUserLiveQuality.m */; };
+		3303C261229D16E900124BFB /* ZegoRoomManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C256229D16E900124BFB /* ZegoRoomManager.m */; };
+		3303C262229D16E900124BFB /* ZegoErrorHelper+RoomManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C257229D16E900124BFB /* ZegoErrorHelper+RoomManager.m */; };
+		3303C263229D16E900124BFB /* ZegoUserLiveInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C259229D16E900124BFB /* ZegoUserLiveInfo.m */; };
+		3303C26C229D175F00124BFB /* ZegoErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C266229D175F00124BFB /* ZegoErrorHelper.m */; };
+		3303C26D229D175F00124BFB /* NSString+ZG_MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C269229D175F00124BFB /* NSString+ZG_MD5.m */; };
+		3303C26E229D175F00124BFB /* ZegoMultiCastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C26B229D175F00124BFB /* ZegoMultiCastDelegate.m */; };
+		3303C27C229D177E00124BFB /* ZegoUser+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C270229D177E00124BFB /* ZegoUser+NSCoding.m */; };
+		3303C27D229D177E00124BFB /* ZegoStream+Equalable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C276229D177E00124BFB /* ZegoStream+Equalable.m */; };
+		3303C27E229D177E00124BFB /* ZegoUser+NSCopying.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C278229D177E00124BFB /* ZegoUser+NSCopying.m */; };
+		3303C27F229D177E00124BFB /* ZegoUser+Valid.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C279229D177E00124BFB /* ZegoUser+Valid.m */; };
+		3303C280229D177E00124BFB /* ZegoUser+Equalable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303C27A229D177E00124BFB /* ZegoUser+Equalable.m */; };
+		339E8D8E229FC8A7001B1442 /* ZegoReplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339E8D8D229FC8A7001B1442 /* ZegoReplayViewController.m */; };
+		339E8D91229FC9BD001B1442 /* PlayerCommandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339E8D8F229FC9BC001B1442 /* PlayerCommandListController.m */; };
+		3521138247F34C91C3631F1A /* libPods-ZegoWhiteBoardEdu-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F25D0C0FDA9C1384095189 /* libPods-ZegoWhiteBoardEdu-iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3303C20B229BCF5A00124BFB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3303C20A229BCF5A00124BFB /* ZegoLiveRoom.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2BE4F53F1648570C1C7426E0 /* Pods-ZegoWhiteBoardEdu-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZegoWhiteBoardEdu-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZegoWhiteBoardEdu-iOS/Pods-ZegoWhiteBoardEdu-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3303C1ED229BCD7900124BFB /* ZegoWhiteBoardEdu-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZegoWhiteBoardEdu-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3303C1F0229BCD7900124BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3303C1F1229BCD7900124BFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3303C1F7229BCD7900124BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3303C1F9229BCD7B00124BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3303C1FC229BCD7B00124BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3303C1FE229BCD7B00124BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3303C1FF229BCD7B00124BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3303C207229BCF5100124BFB /* ZegoLiveRoom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZegoLiveRoom.framework; sourceTree = "<group>"; };
+		3303C213229CD6B600124BFB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		3303C214229CD6B600124BFB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		3303C215229CD6B600124BFB /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		3303C216229CD6B600124BFB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		3303C217229CD6B600124BFB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		3303C218229CD6B600124BFB /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		3303C219229CD6B600124BFB /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		3303C21A229CD6B600124BFB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		3303C21B229CD6B600124BFB /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		3303C21C229CD6B600124BFB /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		3303C21D229CD6B600124BFB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3303C21E229CD6B600124BFB /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		3303C21F229CD6B600124BFB /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		3303C220229CD6B600124BFB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		3303C221229CD6B600124BFB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		3303C222229CD6B600124BFB /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		3303C223229CD6B600124BFB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		3303C224229CD6B600124BFB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		3303C225229CD6B600124BFB /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		3303C226229CD6B600124BFB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		3303C227229CD6B600124BFB /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		3303C228229CD6B600124BFB /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		3303C229229CD6B600124BFB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		3303C22A229CD6B600124BFB /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		3303C22B229CD6B600124BFB /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		3303C236229CD6C800124BFB /* ZGHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGHelper.h; sourceTree = "<group>"; };
+		3303C237229CD6C800124BFB /* ZGHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGHelper.m; sourceTree = "<group>"; };
+		3303C238229CD6C800124BFB /* ZGKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGKeyCenter.m; sourceTree = "<group>"; };
+		3303C239229CD6C800124BFB /* ZGKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGKeyCenter.h; sourceTree = "<group>"; };
+		3303C23D229CD6E100124BFB /* ZegoHudManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZegoHudManager.m; sourceTree = "<group>"; };
+		3303C23E229CD6E100124BFB /* ZegoHudManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZegoHudManager.h; sourceTree = "<group>"; };
+		3303C241229CD6F500124BFB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		3303C242229CD6F500124BFB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3303C244229CD8D600124BFB /* ZegoRoomListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZegoRoomListViewController.h; sourceTree = "<group>"; };
+		3303C245229CD8D600124BFB /* ZegoRoomListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZegoRoomListViewController.m; sourceTree = "<group>"; };
+		3303C247229CE21F00124BFB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3303C248229CE25A00124BFB /* ZGApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGApiManager.m; sourceTree = "<group>"; };
+		3303C249229CE25A00124BFB /* ZGApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGApiManager.h; sourceTree = "<group>"; };
+		3303C24B229D0A4400124BFB /* ZegoWhiteBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZegoWhiteBoardViewController.h; sourceTree = "<group>"; };
+		3303C24C229D0A4400124BFB /* ZegoWhiteBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZegoWhiteBoardViewController.m; sourceTree = "<group>"; };
+		3303C24E229D0E4600124BFB /* RoomCommandListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomCommandListController.h; sourceTree = "<group>"; };
+		3303C24F229D0E4600124BFB /* RoomCommandListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomCommandListController.m; sourceTree = "<group>"; };
+		3303C252229D16E900124BFB /* ZegoUserLiveInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZegoUserLiveInfo.h; sourceTree = "<group>"; };
+		3303C253229D16E900124BFB /* ZegoRoomManager-Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZegoRoomManager-Defines.h"; sourceTree = "<group>"; };
+		3303C254229D16E900124BFB /* ZegoRoomInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZegoRoomInfo.m; sourceTree = "<group>"; };
+		3303C255229D16E900124BFB /* ZegoUserLiveQuality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZegoUserLiveQuality.m; sourceTree = "<group>"; };
+		3303C256229D16E900124BFB /* ZegoRoomManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZegoRoomManager.m; sourceTree = "<group>"; };
+		3303C257229D16E900124BFB /* ZegoErrorHelper+RoomManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZegoErrorHelper+RoomManager.m"; sourceTree = "<group>"; };
+		3303C258229D16E900124BFB /* ZegoUserLiveQuality-Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZegoUserLiveQuality-Protected.h"; sourceTree = "<group>"; };
+		3303C259229D16E900124BFB /* ZegoUserLiveInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZegoUserLiveInfo.m; sourceTree = "<group>"; };
+		3303C25A229D16E900124BFB /* ZegoRoomInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZegoRoomInfo.h; sourceTree = "<group>"; };
+		3303C25B229D16E900124BFB /* ZegoUserLiveInfo-Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZegoUserLiveInfo-Protected.h"; sourceTree = "<group>"; };
+		3303C25C229D16E900124BFB /* ZegoUserLiveQuality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZegoUserLiveQuality.h; sourceTree = "<group>"; };
+		3303C25D229D16E900124BFB /* ZegoRoomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZegoRoomManager.h; sourceTree = "<group>"; };
+		3303C25E229D16E900124BFB /* ZegoErrorHelper+RoomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZegoErrorHelper+RoomManager.h"; sourceTree = "<group>"; };
+		3303C265229D175F00124BFB /* NSString+ZG_MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZG_MD5.h"; sourceTree = "<group>"; };
+		3303C266229D175F00124BFB /* ZegoErrorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZegoErrorHelper.m; sourceTree = "<group>"; };
+		3303C267229D175F00124BFB /* ZegoMultiCastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZegoMultiCastDelegate.h; sourceTree = "<group>"; };
+		3303C268229D175F00124BFB /* ZegoErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZegoErrorHelper.h; sourceTree = "<group>"; };
+		3303C269229D175F00124BFB /* NSString+ZG_MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZG_MD5.m"; sourceTree = "<group>"; };
+		3303C26A229D175F00124BFB /* ZegoDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZegoDefines.h; sourceTree = "<group>"; };
+		3303C26B229D175F00124BFB /* ZegoMultiCastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZegoMultiCastDelegate.m; sourceTree = "<group>"; };
+		3303C270229D177E00124BFB /* ZegoUser+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZegoUser+NSCoding.m"; sourceTree = "<group>"; };
+		3303C271229D177E00124BFB /* ZegoStream+Equalable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZegoStream+Equalable.h"; sourceTree = "<group>"; };
+		3303C272229D177E00124BFB /* ZegoUser+NSCopying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZegoUser+NSCopying.h"; sourceTree = "<group>"; };
+		3303C273229D177E00124BFB /* ZegoUser+Equalable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZegoUser+Equalable.h"; sourceTree = "<group>"; };
+		3303C274229D177E00124BFB /* ZegoUser+Valid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZegoUser+Valid.h"; sourceTree = "<group>"; };
+		3303C276229D177E00124BFB /* ZegoStream+Equalable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZegoStream+Equalable.m"; sourceTree = "<group>"; };
+		3303C277229D177E00124BFB /* ZegoUser+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZegoUser+NSCoding.h"; sourceTree = "<group>"; };
+		3303C278229D177E00124BFB /* ZegoUser+NSCopying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZegoUser+NSCopying.m"; sourceTree = "<group>"; };
+		3303C279229D177E00124BFB /* ZegoUser+Valid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZegoUser+Valid.m"; sourceTree = "<group>"; };
+		3303C27A229D177E00124BFB /* ZegoUser+Equalable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZegoUser+Equalable.m"; sourceTree = "<group>"; };
+		339E8D8C229FC8A7001B1442 /* ZegoReplayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZegoReplayViewController.h; sourceTree = "<group>"; };
+		339E8D8D229FC8A7001B1442 /* ZegoReplayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZegoReplayViewController.m; sourceTree = "<group>"; };
+		339E8D8F229FC9BC001B1442 /* PlayerCommandListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCommandListController.m; sourceTree = "<group>"; };
+		339E8D90229FC9BD001B1442 /* PlayerCommandListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCommandListController.h; sourceTree = "<group>"; };
+		44F25D0C0FDA9C1384095189 /* libPods-ZegoWhiteBoardEdu-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZegoWhiteBoardEdu-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFFFCD20496BF01AB9CEA22 /* Pods-ZegoWhiteBoardEdu-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZegoWhiteBoardEdu-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZegoWhiteBoardEdu-iOS/Pods-ZegoWhiteBoardEdu-iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3303C1EA229BCD7900124BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3303C208229BCF5100124BFB /* ZegoLiveRoom.framework in Frameworks */,
+				3521138247F34C91C3631F1A /* libPods-ZegoWhiteBoardEdu-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04013BF5CD8CC7CE4394D420 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44F25D0C0FDA9C1384095189 /* libPods-ZegoWhiteBoardEdu-iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3303C1E4229BCD7900124BFB = {
+			isa = PBXGroup;
+			children = (
+				3303C206229BCF3100124BFB /* libs */,
+				3303C1EF229BCD7900124BFB /* ZegoWhiteBoardEdu-iOS */,
+				3303C1EE229BCD7900124BFB /* Products */,
+				725CCBE3263026A2652DA5A0 /* Pods */,
+				04013BF5CD8CC7CE4394D420 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3303C1EE229BCD7900124BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3303C1ED229BCD7900124BFB /* ZegoWhiteBoardEdu-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3303C1EF229BCD7900124BFB /* ZegoWhiteBoardEdu-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3303C210229CD69B00124BFB /* AppSupport */,
+				3303C1F0229BCD7900124BFB /* AppDelegate.h */,
+				3303C1F1229BCD7900124BFB /* AppDelegate.m */,
+				3303C244229CD8D600124BFB /* ZegoRoomListViewController.h */,
+				3303C245229CD8D600124BFB /* ZegoRoomListViewController.m */,
+				3303C24B229D0A4400124BFB /* ZegoWhiteBoardViewController.h */,
+				3303C24C229D0A4400124BFB /* ZegoWhiteBoardViewController.m */,
+				3303C24E229D0E4600124BFB /* RoomCommandListController.h */,
+				3303C24F229D0E4600124BFB /* RoomCommandListController.m */,
+				339E8D8C229FC8A7001B1442 /* ZegoReplayViewController.h */,
+				339E8D8D229FC8A7001B1442 /* ZegoReplayViewController.m */,
+				339E8D90229FC9BD001B1442 /* PlayerCommandListController.h */,
+				339E8D8F229FC9BC001B1442 /* PlayerCommandListController.m */,
+				3303C1F6229BCD7900124BFB /* Main.storyboard */,
+				3303C1F9229BCD7B00124BFB /* Assets.xcassets */,
+				3303C1FB229BCD7B00124BFB /* LaunchScreen.storyboard */,
+				3303C247229CE21F00124BFB /* PrefixHeader.pch */,
+				3303C1FE229BCD7B00124BFB /* Info.plist */,
+				3303C1FF229BCD7B00124BFB /* main.m */,
+			);
+			path = "ZegoWhiteBoardEdu-iOS";
+			sourceTree = "<group>";
+		};
+		3303C206229BCF3100124BFB /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				3303C207229BCF5100124BFB /* ZegoLiveRoom.framework */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		3303C210229CD69B00124BFB /* AppSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3303C236229CD6C800124BFB /* ZGHelper.h */,
+				3303C237229CD6C800124BFB /* ZGHelper.m */,
+				3303C249229CE25A00124BFB /* ZGApiManager.h */,
+				3303C248229CE25A00124BFB /* ZGApiManager.m */,
+				3303C239229CD6C800124BFB /* ZGKeyCenter.h */,
+				3303C238229CD6C800124BFB /* ZGKeyCenter.m */,
+				3303C251229D16E900124BFB /* ZegoRoomManager */,
+				3303C23C229CD6E100124BFB /* HUD */,
+				3303C211229CD6A800124BFB /* thirdLib */,
+			);
+			path = AppSupport;
+			sourceTree = "<group>";
+		};
+		3303C211229CD6A800124BFB /* thirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				3303C240229CD6F500124BFB /* MBProgressHUD */,
+				3303C212229CD6B600124BFB /* Masonry */,
+			);
+			path = thirdLib;
+			sourceTree = "<group>";
+		};
+		3303C212229CD6B600124BFB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				3303C213229CD6B600124BFB /* MASCompositeConstraint.h */,
+				3303C214229CD6B600124BFB /* NSLayoutConstraint+MASDebugAdditions.m */,
+				3303C215229CD6B600124BFB /* MASConstraint+Private.h */,
+				3303C216229CD6B600124BFB /* MASLayoutConstraint.h */,
+				3303C217229CD6B600124BFB /* NSArray+MASShorthandAdditions.h */,
+				3303C218229CD6B600124BFB /* MASConstraintMaker.h */,
+				3303C219229CD6B600124BFB /* View+MASAdditions.h */,
+				3303C21A229CD6B600124BFB /* NSArray+MASAdditions.h */,
+				3303C21B229CD6B600124BFB /* MASUtilities.h */,
+				3303C21C229CD6B600124BFB /* MASViewAttribute.h */,
+				3303C21D229CD6B600124BFB /* ViewController+MASAdditions.m */,
+				3303C21E229CD6B600124BFB /* MASViewConstraint.h */,
+				3303C21F229CD6B600124BFB /* MASConstraint.h */,
+				3303C220229CD6B600124BFB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				3303C221229CD6B600124BFB /* MASCompositeConstraint.m */,
+				3303C222229CD6B600124BFB /* MASConstraintMaker.m */,
+				3303C223229CD6B600124BFB /* MASLayoutConstraint.m */,
+				3303C224229CD6B600124BFB /* NSArray+MASAdditions.m */,
+				3303C225229CD6B600124BFB /* View+MASAdditions.m */,
+				3303C226229CD6B600124BFB /* View+MASShorthandAdditions.h */,
+				3303C227229CD6B600124BFB /* Masonry.h */,
+				3303C228229CD6B600124BFB /* MASConstraint.m */,
+				3303C229229CD6B600124BFB /* ViewController+MASAdditions.h */,
+				3303C22A229CD6B600124BFB /* MASViewConstraint.m */,
+				3303C22B229CD6B600124BFB /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		3303C23C229CD6E100124BFB /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				3303C23E229CD6E100124BFB /* ZegoHudManager.h */,
+				3303C23D229CD6E100124BFB /* ZegoHudManager.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		3303C240229CD6F500124BFB /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3303C241229CD6F500124BFB /* MBProgressHUD.m */,
+				3303C242229CD6F500124BFB /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		3303C251229D16E900124BFB /* ZegoRoomManager */ = {
+			isa = PBXGroup;
+			children = (
+				3303C26F229D177E00124BFB /* Category */,
+				3303C264229D175F00124BFB /* Others */,
+				3303C253229D16E900124BFB /* ZegoRoomManager-Defines.h */,
+				3303C25D229D16E900124BFB /* ZegoRoomManager.h */,
+				3303C256229D16E900124BFB /* ZegoRoomManager.m */,
+				3303C25A229D16E900124BFB /* ZegoRoomInfo.h */,
+				3303C254229D16E900124BFB /* ZegoRoomInfo.m */,
+				3303C252229D16E900124BFB /* ZegoUserLiveInfo.h */,
+				3303C25B229D16E900124BFB /* ZegoUserLiveInfo-Protected.h */,
+				3303C259229D16E900124BFB /* ZegoUserLiveInfo.m */,
+				3303C25C229D16E900124BFB /* ZegoUserLiveQuality.h */,
+				3303C258229D16E900124BFB /* ZegoUserLiveQuality-Protected.h */,
+				3303C255229D16E900124BFB /* ZegoUserLiveQuality.m */,
+				3303C25E229D16E900124BFB /* ZegoErrorHelper+RoomManager.h */,
+				3303C257229D16E900124BFB /* ZegoErrorHelper+RoomManager.m */,
+			);
+			path = ZegoRoomManager;
+			sourceTree = "<group>";
+		};
+		3303C264229D175F00124BFB /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				3303C265229D175F00124BFB /* NSString+ZG_MD5.h */,
+				3303C266229D175F00124BFB /* ZegoErrorHelper.m */,
+				3303C267229D175F00124BFB /* ZegoMultiCastDelegate.h */,
+				3303C268229D175F00124BFB /* ZegoErrorHelper.h */,
+				3303C269229D175F00124BFB /* NSString+ZG_MD5.m */,
+				3303C26A229D175F00124BFB /* ZegoDefines.h */,
+				3303C26B229D175F00124BFB /* ZegoMultiCastDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		3303C26F229D177E00124BFB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3303C274229D177E00124BFB /* ZegoUser+Valid.h */,
+				3303C279229D177E00124BFB /* ZegoUser+Valid.m */,
+				3303C273229D177E00124BFB /* ZegoUser+Equalable.h */,
+				3303C27A229D177E00124BFB /* ZegoUser+Equalable.m */,
+				3303C277229D177E00124BFB /* ZegoUser+NSCoding.h */,
+				3303C270229D177E00124BFB /* ZegoUser+NSCoding.m */,
+				3303C272229D177E00124BFB /* ZegoUser+NSCopying.h */,
+				3303C278229D177E00124BFB /* ZegoUser+NSCopying.m */,
+				3303C271229D177E00124BFB /* ZegoStream+Equalable.h */,
+				3303C276229D177E00124BFB /* ZegoStream+Equalable.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		725CCBE3263026A2652DA5A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BE4F53F1648570C1C7426E0 /* Pods-ZegoWhiteBoardEdu-iOS.debug.xcconfig */,
+				CEFFFCD20496BF01AB9CEA22 /* Pods-ZegoWhiteBoardEdu-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3303C1EC229BCD7900124BFB /* ZegoWhiteBoardEdu-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3303C203229BCD7B00124BFB /* Build configuration list for PBXNativeTarget "ZegoWhiteBoardEdu-iOS" */;
+			buildPhases = (
+				06B8842359F149496FA43FA8 /* [CP] Check Pods Manifest.lock */,
+				3303C1E9229BCD7900124BFB /* Sources */,
+				3303C1EA229BCD7900124BFB /* Frameworks */,
+				3303C1EB229BCD7900124BFB /* Resources */,
+				4A6F82EB3F86665CC3CC8AF7 /* [CP] Copy Pods Resources */,
+				3303C20B229BCF5A00124BFB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZegoWhiteBoardEdu-iOS";
+			productName = "ZegoWhiteBoardEdu-iOS";
+			productReference = 3303C1ED229BCD7900124BFB /* ZegoWhiteBoardEdu-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3303C1E5229BCD7900124BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zego;
+				TargetAttributes = {
+					3303C1EC229BCD7900124BFB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3303C1E8229BCD7900124BFB /* Build configuration list for PBXProject "ZegoWhiteBoardEdu-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3303C1E4229BCD7900124BFB;
+			productRefGroup = 3303C1EE229BCD7900124BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3303C1EC229BCD7900124BFB /* ZegoWhiteBoardEdu-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3303C1EB229BCD7900124BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3303C1FD229BCD7B00124BFB /* LaunchScreen.storyboard in Resources */,
+				3303C1FA229BCD7B00124BFB /* Assets.xcassets in Resources */,
+				3303C1F8229BCD7900124BFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B8842359F149496FA43FA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZegoWhiteBoardEdu-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A6F82EB3F86665CC3CC8AF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZegoWhiteBoardEdu-iOS/Pods-ZegoWhiteBoardEdu-iOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/White-SDK-iOS/WhiteSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WhiteSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZegoWhiteBoardEdu-iOS/Pods-ZegoWhiteBoardEdu-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3303C1E9229BCD7900124BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339E8D91229FC9BD001B1442 /* PlayerCommandListController.m in Sources */,
+				3303C22F229CD6B600124BFB /* MASConstraintMaker.m in Sources */,
+				3303C26C229D175F00124BFB /* ZegoErrorHelper.m in Sources */,
+				3303C23A229CD6C800124BFB /* ZGHelper.m in Sources */,
+				3303C22D229CD6B600124BFB /* ViewController+MASAdditions.m in Sources */,
+				3303C261229D16E900124BFB /* ZegoRoomManager.m in Sources */,
+				3303C234229CD6B600124BFB /* MASViewConstraint.m in Sources */,
+				3303C200229BCD7B00124BFB /* main.m in Sources */,
+				3303C27E229D177E00124BFB /* ZegoUser+NSCopying.m in Sources */,
+				339E8D8E229FC8A7001B1442 /* ZegoReplayViewController.m in Sources */,
+				3303C263229D16E900124BFB /* ZegoUserLiveInfo.m in Sources */,
+				3303C230229CD6B600124BFB /* MASLayoutConstraint.m in Sources */,
+				3303C250229D0E4600124BFB /* RoomCommandListController.m in Sources */,
+				3303C243229CD6F500124BFB /* MBProgressHUD.m in Sources */,
+				3303C280229D177E00124BFB /* ZegoUser+Equalable.m in Sources */,
+				3303C24A229CE25A00124BFB /* ZGApiManager.m in Sources */,
+				3303C262229D16E900124BFB /* ZegoErrorHelper+RoomManager.m in Sources */,
+				3303C233229CD6B600124BFB /* MASConstraint.m in Sources */,
+				3303C246229CD8D600124BFB /* ZegoRoomListViewController.m in Sources */,
+				3303C231229CD6B600124BFB /* NSArray+MASAdditions.m in Sources */,
+				3303C26E229D175F00124BFB /* ZegoMultiCastDelegate.m in Sources */,
+				3303C27C229D177E00124BFB /* ZegoUser+NSCoding.m in Sources */,
+				3303C23B229CD6C800124BFB /* ZGKeyCenter.m in Sources */,
+				3303C1F2229BCD7900124BFB /* AppDelegate.m in Sources */,
+				3303C22E229CD6B600124BFB /* MASCompositeConstraint.m in Sources */,
+				3303C260229D16E900124BFB /* ZegoUserLiveQuality.m in Sources */,
+				3303C23F229CD6E200124BFB /* ZegoHudManager.m in Sources */,
+				3303C232229CD6B600124BFB /* View+MASAdditions.m in Sources */,
+				3303C26D229D175F00124BFB /* NSString+ZG_MD5.m in Sources */,
+				3303C27F229D177E00124BFB /* ZegoUser+Valid.m in Sources */,
+				3303C22C229CD6B600124BFB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				3303C235229CD6B600124BFB /* MASViewAttribute.m in Sources */,
+				3303C25F229D16E900124BFB /* ZegoRoomInfo.m in Sources */,
+				3303C24D229D0A4400124BFB /* ZegoWhiteBoardViewController.m in Sources */,
+				3303C27D229D177E00124BFB /* ZegoStream+Equalable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3303C1F6229BCD7900124BFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3303C1F7229BCD7900124BFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3303C1FB229BCD7B00124BFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3303C1FC229BCD7B00124BFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3303C201229BCD7B00124BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3303C202229BCD7B00124BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3303C204229BCD7B00124BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE4F53F1648570C1C7426E0 /* Pods-ZegoWhiteBoardEdu-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B82BHJ5H89;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ZegoWhiteBoardEdu-iOS/PrefixHeader.pch";
+				INFOPLIST_FILE = "ZegoWhiteBoardEdu-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zego.ZegoWhiteBoardEdu-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3303C205229BCD7B00124BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFFFCD20496BF01AB9CEA22 /* Pods-ZegoWhiteBoardEdu-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B82BHJ5H89;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ZegoWhiteBoardEdu-iOS/PrefixHeader.pch";
+				INFOPLIST_FILE = "ZegoWhiteBoardEdu-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zego.ZegoWhiteBoardEdu-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3303C1E8229BCD7900124BFB /* Build configuration list for PBXProject "ZegoWhiteBoardEdu-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3303C201229BCD7B00124BFB /* Debug */,
+				3303C202229BCD7B00124BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3303C203229BCD7B00124BFB /* Build configuration list for PBXNativeTarget "ZegoWhiteBoardEdu-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3303C204229BCD7B00124BFB /* Debug */,
+				3303C205229BCD7B00124BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3303C1E5229BCD7900124BFB /* Project object */;
+}

@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  ZegoWhiteBoardEdu-iOS
+//
+//  Created by Sky on 2019/5/28.
+//  Copyright © 2019 zego. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ZGHelper.h"
+#import "ZGApiManager.h"
+#import "ZegoHudManager.h"
+#import "Masonry.h"
+
+
+#define Weakify( x ) \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wshadow\"") \
+__weak __typeof__(x) __weak_##x##__ = x; \
+_Pragma("clang diagnostic pop")
+
+#define Strongify( x ) \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Wshadow\"") \
+__strong __typeof__(x) x = __weak_##x##__; \
+_Pragma("clang diagnostic pop") \
+if (!self) {return;}
+
+#endif /* PrefixHeader_pch */

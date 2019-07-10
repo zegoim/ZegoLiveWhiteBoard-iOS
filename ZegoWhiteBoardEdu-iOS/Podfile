@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+
+target 'ZegoWhiteBoardEdu-iOS' do
+  inhibit_all_warnings!
+
+  pod 'White-SDK-iOS'
+
+end
